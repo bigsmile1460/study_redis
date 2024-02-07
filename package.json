@@ -1,0 +1,32 @@
+{
+  "name": "study",
+  "version": "1.0.0",
+  "description": "redis study project",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm run test",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigsmile1460/redisStudy.git"
+  },
+  "keywords": [
+    "redis"
+  ],
+  "author": "bigsmile1460",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bigsmile1460/redisStudy/issues"
+  },
+  "homepage": "https://github.com/bigsmile1460/redisStudy#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "moment": "^2.30.1",
+    "nodemon": "^3.0.3",
+    "redis": "^4.6.13"
+  }
+}
